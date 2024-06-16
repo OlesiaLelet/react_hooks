@@ -1,0 +1,30 @@
+html {
+    margin: 0px;
+}
+.content {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+    font-weight: bold;
+    max-width: 1200px;
+    margin: 0px auto;
+    /* border:  0.01rem solid grey; */
+}
+.content__checkboxes {
+  padding: 10px 0px;
+}
+.checkboxes__female, .checkboxes__male, .checkboxes__undefined {
+  margin: 0px 5px 0px 0px;
+}
+.female__label, .male__label, .undefined__label {
+  margin: 0px 5px 0px 0px;
+}
+li {
+    list-style-type: none;
+  }
+  
+  ul {
+    margin-left: 0;
+    padding-left: 0;
+
+  }

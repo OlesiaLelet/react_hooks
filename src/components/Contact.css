@@ -1,0 +1,35 @@
+.body {
+    margin: 0px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.contact {
+    display: flex;
+    padding: 10px 0px;
+    border-bottom: 0.01rem solid grey;
+    margin-bottom: 0.5rem;
+    width: 100%;
+
+} 
+.contact__inform {
+    flex-direction: column;
+    width: 100%;
+}
+.contact__name {
+    display: flex;
+    justify-content: left;
+    padding: 5px 30px;
+}
+.name__firstName, .name__lastName {
+    padding-right: 7px;
+}
+.contact__phone, .contact__gender {
+    padding: 5px 30px;
+   
+}
+.contact__gender {
+    height: 32px;
+    width: 32px
+}
+.hidden {
+    display: none;
+}
